@@ -1,6 +1,7 @@
 .page {
     background-color: lightblue;
     font-family: Courier New, Courier, monospace;
+    max-width: 80rem;
 }
 
 .title {
@@ -17,6 +18,12 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.menu-item:visited {
+    color: yellow;
+}
+    
+
 .art {
     width:100%;
 }
