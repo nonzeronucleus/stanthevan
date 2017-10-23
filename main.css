@@ -22,7 +22,11 @@
 .menu-item:visited {
     color: yellow;
 }
-    
+
+.menu-item:link {
+    color: white;
+}
+
 
 .art {
     width:100%;
