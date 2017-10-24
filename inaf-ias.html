@@ -1,16 +1,18 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src="comic.js"></script>            
     </head>
-    <body class="page">
-        <img class="title" src="images/Stan_van_title.png" />
-        <h3>It's not a Ferret... IT'S A STOAT!</h3>
+    <body class="page" onload="setImage('inaf')">
+        <div id="header"></div>
         <div class="menu-bar">
-            <a href="./index.html" class="menu-item">prev</a>
-            <a href="./index.html" class="menu-item">list</a>
-            <a href="./index.html" class="menu-item"> next</a>
+            <a id="prev" href="./inaf-ias.html" class="menu-item">prev</a>
+            <a href="./inaf-ias.html" class="menu-item">contacts</a>
+            <a href="./list.html?comic=inaf" class="menu-item">list</a>
+            <a id="next" href="./index.html?img=2" class="menu-item"> next</a>
         </div>
-        <img class ="art" src="images/inaf-ias.png" />
+        <div id="content">
+            <img id="comic" class ="art" src="images/stan_group.png" />
+        </div>
     </body>
 </html>
-    
