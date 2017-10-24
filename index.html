@@ -1,16 +1,18 @@
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-    <body class="page">
-        <img class="title" src="images/Stan_van_title.png" />
-        <h3>A webcomic by Est Bisto</h3>
-        <div class="menu-bar">
-            <a href="./inaf-ias.html" class="menu-item">prev</a>
-            <a href="./inaf-ias.html" class="menu-item">contacts</a>
-            <a href="./inaf-ias.html" class="menu-item">list</a>
-            <a href="./inaf-ias.html" class="menu-item"> next</a>
-        </div>
-        <img class ="art" src="images/stan_group.png" />
-    </body>
-</html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="main.css">
+            <script type="text/javascript" src="comic.js"></script>            
+        </head>
+        <body class="page" onload="setImage()">
+            <img class="title" src="images/Stan_van_title.png" />
+            <h3>A webcomic by Est Bisto</h3>
+            <div class="menu-bar">
+                <a id="prev" href="./inaf-ias.html" class="menu-item">prev</a>
+                <a href="./inaf-ias.html" class="menu-item">contacts</a>
+                <a href="./inaf-ias.html" class="menu-item">list</a>
+                <a id="next" href="./comic.html?img=2" class="menu-item"> next</a>
+            </div>
+            <img id="comic" class ="art" src="images/stan_group.png" />
+        </body>
+    </html>
+    
